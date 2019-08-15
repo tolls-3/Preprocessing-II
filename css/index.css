@@ -197,26 +197,38 @@ img {
   margin: 0 auto;
 }
 .panel {
-  border-bottom: 2px dashed #C0C0C0;
-  display: flex;
   width: 100%;
-  height: 8rem;
+  border: 2px solid red;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: row;
   justify-content: flex-start;
   align-items: center;
+  border-bottom: 2px dashed #C0C0C0;
+  padding: 20px 0;
 }
-.panel nav {
+.panel .black {
+  margin-right: 70px;
+}
+.panel .home1 {
+  max-width: 100%;
+  flex-direction: column;
+  max-width: 600px;
+}
+.panel .home1 nav {
   display: flex;
-  margin-left: 140px;
-  padding-left: 150px;
+  margin-left: 120px;
+  padding-left: 120px;
 }
-.panel nav a {
+.panel .home1 nav a {
   text-decoration: none;
   margin-right: 10px;
   align-self: flex-start;
   color: black;
-  padding: 10px;
   font-size: 15px;
   font-weight: bold;
+  padding: 10px;
 }
 .footer {
   width: 100%;
