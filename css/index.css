@@ -12,20 +12,6 @@
 .btn:hover {
   background-color: #006667;
 }
-.btnprop {
-  padding: 10px 40px;
-  text-align: center;
-  font-size: 20px;
-  margin: 4px 2px;
-  width: 80%;
-  border-radius: 10px;
-  background-color: #17A2B8;
-  color: white;
-  cursor: pointer;
-}
-.btnprop:hover {
-  background-color: #006667;
-}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -196,39 +182,26 @@ img {
   width: 100%;
   margin: 0 auto;
 }
-.panel {
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
   width: 100%;
-  border: 2px solid red;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  align-items: center;
   border-bottom: 2px dashed #C0C0C0;
-  padding: 20px 0;
+  margin-top: 20px;
 }
-.panel .black {
-  margin-right: 70px;
+h1 {
+  width: 48%;
 }
-.panel .home1 {
-  max-width: 100%;
-  flex-direction: column;
-  max-width: 600px;
-}
-.panel .home1 nav {
+.navtags {
+  width: 48%;
   display: flex;
-  margin-left: 120px;
-  padding-left: 120px;
+  justify-content: space-evenly;
 }
-.panel .home1 nav a {
+.navtags a {
   text-decoration: none;
-  margin-right: 10px;
-  align-self: flex-start;
-  color: black;
-  font-size: 15px;
-  font-weight: bold;
-  padding: 10px;
+  color: #212529;
+  font-size: 1.6rem;
 }
 .footer {
   width: 100%;
