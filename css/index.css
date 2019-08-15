@@ -1,16 +1,11 @@
 .btn {
-  padding: 10px 40px;
-  text-align: center;
+  padding: 1rem;
+  width: 20rem;
+  border-radius: 1.4rem;
+  background-color: green;
   font-size: 20px;
-  margin: 4px 2px;
-  width: 80%;
-  border-radius: 10px;
-  background-color: #17A2B8;
-  color: white;
-  cursor: pointer;
-}
-.btn:hover {
-  background-color: #006667;
+  color: blue;
+  text-align: center;
 }
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
