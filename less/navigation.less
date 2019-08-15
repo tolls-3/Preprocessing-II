@@ -7,6 +7,13 @@ nav{
     border-bottom:2px dashed @navigation-border;
     margin-top:20px;
     
+    
+    @media @mobile{
+        flex-direction:column;
+        width:100%;
+        align-items:center;
+        justify-content: space-between;
+    }
 }
 
 h1{
@@ -22,8 +29,14 @@ h1{
         color:@shark;
         font-size:1.6rem;
     }   
-}
 
+    @media @mobile{
+        flex-direction:row;
+        width:100%;
+        align-items:center;
+        justify-content: space-around;
+    }
+}
 
 
 
