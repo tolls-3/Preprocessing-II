@@ -284,12 +284,18 @@ nav h1 {
 .home .content-section .img-content img {
   border-radius: 10px;
 }
+@media (max-width:500px) {
+  .home .content-section .img-content img {
+    width: 100%;
+  }
+}
 .home .inverse-content {
   padding-bottom: 30px;
   border-bottom: 2px dashed #C0C0C0;
 }
 @media (max-width:500px) {
   .home .inverse-content {
+    margin: 0 auto 30px;
     flex-direction: column-reverse;
   }
 }
@@ -300,6 +306,17 @@ nav h1 {
 .home .inverse-content .img-content {
   padding-right: 1%;
   padding-left: 0;
+  width: 48%;
+}
+@media (max-width:500px) {
+  .home .inverse-content .img-content {
+    width: 100%;
+  }
+}
+@media (max-width:500px) {
+  .home .inverse-content .img-content img {
+    width: 100%;
+  }
 }
 .home .content-destination {
   width: 75%;
