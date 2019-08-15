@@ -11,6 +11,11 @@
 .btn:hover {
   color: #1fc8e3;
 }
+@media (max-width:500px) {
+  .btn {
+    width: 100%;
+  }
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -197,8 +202,14 @@ nav {
     justify-content: space-between;
   }
 }
-h1 {
+nav h1 {
   width: 48%;
+}
+@media (max-width:500px) {
+  nav h1 {
+    justify-content: center;
+    align-items: center;
+  }
 }
 .navtags {
   width: 48%;
@@ -308,7 +319,17 @@ h1 {
   display: flex;
   justify-content: space-between;
 }
+@media (max-width:500px) {
+  .home .content-pick {
+    flex-direction: column;
+  }
+}
 .home .content-pick .destination {
   width: 30%;
   margin-bottom: 30px;
+}
+@media (max-width:500px) {
+  .home .content-pick .destination {
+    width: 100%;
+  }
 }
