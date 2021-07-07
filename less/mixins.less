@@ -1,1 +1,39 @@
 // Mixins in here
+
+// .signMeUpButton(@bgColor, @fontSize, @fontColor){
+//     background-color: @bgColor;
+//     font-size: @fontSize;
+//     color: @fontColor;
+//     text-align: center;
+//     padding: 1rem;
+//     width: 20rem;
+//     border-radius: 1.4rem;
+//  }
+
+.paraSignBtn(@fontColor,@btnFontSize,@button-bg){
+    background-color:@button-bg;
+    font-size:@btnFontSize;
+    color:@fontColor;
+    text-align:center;
+    
+
+}
+
+.btn{
+    max-width:100%;
+    padding: 1rem;
+    width: 20rem;
+    border-radius: 1.4rem;
+    .paraSignBtn(@fontColor,@btnFontSize,@button-bg);
+
+    &:hover {
+        
+       color:lighten(@button-bg,10%);
+
+}
+
+    @media @mobile{
+        width:100%;
+    }
+}
+
